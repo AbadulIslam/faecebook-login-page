@@ -1,0 +1,100 @@
+/*
+author:freelancer munnaf
+address:pakisha singra natore
+email:mdabadeul@gmail.com
+phone:01737815278
+
+ */
+.top {
+  background: #425f9c; }
+
+
+
+.bio-top td {
+  color: #EBEDF0;
+  font-size: 12px; }
+
+.input-box input {
+  height: 2%;
+  width: 90%;
+  outline: none;
+  text-align: center; }
+
+.button input {
+  background: #4267B2;
+  color: #EBEDF0;
+  font-weight: bold;
+  padding: -5px;
+  border: 1px solid #29487d;
+  font-size: 12px; }
+.inputs-groups {
+  padding-top: 5px;
+  padding-left: 50px;
+}
+.forget a{
+  text-decoration: none;
+  color:rgb(235,237,240);
+}
+.reg-title{
+  margin-top:25px ;
+
+}
+.subtitle {
+  margin-left: -99px;
+  color: rgb(75,79,86);
+}
+input[type="name"] {
+  width: 20%;
+  height: 38px;
+  font-weight: 600;
+}
+input[type="email"] {
+  width: 40%;
+  padding: 8px;
+  font-weight: 600;
+}
+.reg-password input{
+  @extend input[type="email"];
+}
+.conform-password input{
+  @extend input[type="email"];
+}
+.birth-datetitle{
+
+  & h4{
+    @extend .subtitle;
+    margin-left: -50px;
+
+  }
+}
+.left-content {
+  margin-left: -93px;
+}
+.gender-title {
+  margin-left: -140px;
+}
+
+input[type="radio"] {
+  margin-left: 10px;
+}
+.gender label {
+  font-weight: 500;
+}
+.condition p {
+  margin-left: 211px;
+  & a{
+    text-decoration: none;
+  }
+}
+.reg-button input {
+  padding: 4px 75px;
+  text-transform: capitalize;
+  font-weight: bold;
+  background: #5F9A4C;
+  color: #FFFFFF;
+  border: none;
+  font-size: 20px;
+}
+.registation input{
+  outline: none;
+}
